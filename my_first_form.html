@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My First HTML Form</title>
+	</head>
+	<body>
+		<form method="POST" action="http://requestb.in/11zey1k1">
+			<h2>Login Form</h2>
+			<p>
+				<label for="username">Username</label>
+				<input id="username" name="username" type="text" placeholder="Enter your username here.">
+			</p>
+			<p>
+				<label for"password">Password</label>
+				<input id="password" name="password" type="password" placeholder="Enter your password here.">
+			</p>
+			<button type="submit">Login</button>
+		</form>
+		<form method="POST" action="http://requestb.in/11zey1k1">
+			<h2>Compose an Email</h2>
+			<p>
+				<label for="to">To</label>
+				<input id="to" name="to" type="text">
+			</p>
+			<p>
+				<label for="from">From</label>
+				<input id="from" name="from" type="text">
+			</p>
+			<p>
+				<label for="subject">Subject</label>
+				<input id="subject" name="subject" type="text">
+			</p>
+			<p>
+				<textarea id="body" name="body" rows="5" cols="40">Message</textarea>
+			</p>
+			<p>Would you like to save a copy to your sent folder?</p>
+				<label><input type="checkbox" name="copy" value="yes" id="copy" checked>Yes</label>
+			<p>
+				<button type="submit">Send</button>
+			</p>
+		</form>
+		<form method="POST" action="http://requestb.in/11zey1k1">
+		<h2>Multiple Choice Test</h2>
+		<p>What is your favorite color?</p>
+			<label>
+				<input type="radio" name="color" value="blue">
+				Blue
+			</label>
+			<label>
+				<input type="radio" name="color" value="red">
+				Red
+			</label>
+			<label>
+				<input type="radio" name="color" value="green">
+				Green
+			</label>
+		</form>
+		<p>Favorite place?</p>
+		<form method="POST" action="http://requestb.in/11zey1k1">
+			<label>
+				<input type="radio" name="ok" value="okc">
+				OKC
+			</label>
+			<label>
+				<input type="radio" name="ok" value="oklahoma">
+				Oklahoma
+			</label>
+			<label>
+				<input type="radio" name="tx" value="sa">
+				San Antonio
+			</label>
+			<label>
+				<input type="radio" name="tx" value="texas">
+				Texas
+			</label>
+		<p>Where have you travelled to?</p>
+			<label><input type="checkbox" id="travel1" name="travel[]" value="Africa">
+				Africa
+			</label>
+			<label><input type="checkbox" id="travel2" name="travel[]" value="Europe">
+				Europe
+			</label>
+			<label><input type="checkbox" id="travel3" name="travel[]" value="Asia">
+				Asia
+			</label>
+			<br>
+			<div>
+				<label for="thunder">Will the Thunder when the Championship?</label>
+				<select id="thunder" name="thunder">
+					<option value="0">No</option>
+					<option selected value="1">Yes</option>
+				</select>
+			</div>
+			<label for="contenders">Who are the contenders this year?</label>
+			<select id="contenders" name="contenders[]" multiple>
+				<option>Thunder</option>
+				<option>Spurs</option>
+				<option>Golden State</option>
+				<option>Cavs</option>
+			</select>
+			<button type="submit">Submit</button>
+		</form>
+	</body>
+</html>

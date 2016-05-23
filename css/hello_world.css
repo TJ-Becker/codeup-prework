@@ -1,0 +1,26 @@
+h1, h2 {
+	color: purple;
+	text-decoration: underline;
+}
+
+body {
+	background-color: #494747;
+	background-image: url("file:///Users/tj.becker/Desktop/Codeup/img/asanoha-400px.png");
+	background-size: 600px 450px;
+	background-position: center;
+	font-family: arial, serif;
+}
+ul {
+	list-style: square;
+}
+
+td {
+	font-size: 20px;
+	padding: 50px 50px 50px 50px;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {color: green;}
